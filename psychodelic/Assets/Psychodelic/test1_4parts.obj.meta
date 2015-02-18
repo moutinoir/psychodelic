@@ -1,0 +1,262 @@
+fileFormatVersion: 2
+guid: f4de245d3614e4550b13e251a6dbac09
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: box1_piece2 part_01
+    100002: box1_piece2 part_02
+    100004: box1_piece2 part_03
+    100006: box1_piece2 part_04
+    100008: frame1_inner1_piece2 part_01
+    100010: frame1_inner1_piece2 part_02
+    100012: frame1_inner1_piece2 part_03
+    100014: frame1_inner1_piece2 part_04
+    100016: frame2_outer1_HIDE_piece2 part_01
+    100018: frame2_outer1_HIDE_piece2 part_02
+    100020: frame2_outer1_HIDE_piece2 part_03
+    100022: frame2_outer1_HIDE_piece2 part_04
+    100024: inner1_piece2 part_01
+    100026: inner1_piece2 part_02
+    100028: inner1_piece2 part_03
+    100030: inner1_piece2 part_04
+    100032: outerparts1_piece2 part_01
+    100034: outerparts1_piece2 part_02
+    100036: outerparts1_piece2 part_03
+    100038: outerparts1_piece2 part_04
+    100040: outerparts2_piece2 part_01
+    100042: outerparts2_piece2 part_02
+    100044: outerparts2_piece2 part_03
+    100046: outerparts2_piece2 part_04
+    100048: outerparts3_piece2 part_01
+    100050: outerparts3_piece2 part_02
+    100052: outerparts3_piece2 part_03
+    100054: outerparts3_piece2 part_04
+    100056: outerparts4_piece2 part_01
+    100058: outerparts4_piece2 part_02
+    100060: outerparts4_piece2 part_03
+    100062: outerparts4_piece2 part_04
+    100064: outerparts5_piece2 part_01
+    100066: outerparts5_piece2 part_02
+    100068: outerparts5_piece2 part_03
+    100070: outerparts5_piece2 part_04
+    100072: outerparts6_piece2 part_01
+    100074: outerparts6_piece2 part_02
+    100076: outerparts6_piece2 part_03
+    100078: outerparts6_piece2 part_04
+    100080: //RootNode
+    400000: box1_piece2 part_01
+    400002: box1_piece2 part_02
+    400004: box1_piece2 part_03
+    400006: box1_piece2 part_04
+    400008: frame1_inner1_piece2 part_01
+    400010: frame1_inner1_piece2 part_02
+    400012: frame1_inner1_piece2 part_03
+    400014: frame1_inner1_piece2 part_04
+    400016: frame2_outer1_HIDE_piece2 part_01
+    400018: frame2_outer1_HIDE_piece2 part_02
+    400020: frame2_outer1_HIDE_piece2 part_03
+    400022: frame2_outer1_HIDE_piece2 part_04
+    400024: inner1_piece2 part_01
+    400026: inner1_piece2 part_02
+    400028: inner1_piece2 part_03
+    400030: inner1_piece2 part_04
+    400032: outerparts1_piece2 part_01
+    400034: outerparts1_piece2 part_02
+    400036: outerparts1_piece2 part_03
+    400038: outerparts1_piece2 part_04
+    400040: outerparts2_piece2 part_01
+    400042: outerparts2_piece2 part_02
+    400044: outerparts2_piece2 part_03
+    400046: outerparts2_piece2 part_04
+    400048: outerparts3_piece2 part_01
+    400050: outerparts3_piece2 part_02
+    400052: outerparts3_piece2 part_03
+    400054: outerparts3_piece2 part_04
+    400056: outerparts4_piece2 part_01
+    400058: outerparts4_piece2 part_02
+    400060: outerparts4_piece2 part_03
+    400062: outerparts4_piece2 part_04
+    400064: outerparts5_piece2 part_01
+    400066: outerparts5_piece2 part_02
+    400068: outerparts5_piece2 part_03
+    400070: outerparts5_piece2 part_04
+    400072: outerparts6_piece2 part_01
+    400074: outerparts6_piece2 part_02
+    400076: outerparts6_piece2 part_03
+    400078: outerparts6_piece2 part_04
+    400080: //RootNode
+    2300000: box1_piece2 part_01
+    2300002: box1_piece2 part_02
+    2300004: box1_piece2 part_03
+    2300006: box1_piece2 part_04
+    2300008: frame1_inner1_piece2 part_01
+    2300010: frame1_inner1_piece2 part_02
+    2300012: frame1_inner1_piece2 part_03
+    2300014: frame1_inner1_piece2 part_04
+    2300016: frame2_outer1_HIDE_piece2 part_01
+    2300018: frame2_outer1_HIDE_piece2 part_02
+    2300020: frame2_outer1_HIDE_piece2 part_03
+    2300022: frame2_outer1_HIDE_piece2 part_04
+    2300024: inner1_piece2 part_01
+    2300026: inner1_piece2 part_02
+    2300028: inner1_piece2 part_03
+    2300030: inner1_piece2 part_04
+    2300032: outerparts1_piece2 part_01
+    2300034: outerparts1_piece2 part_02
+    2300036: outerparts1_piece2 part_03
+    2300038: outerparts1_piece2 part_04
+    2300040: outerparts2_piece2 part_01
+    2300042: outerparts2_piece2 part_02
+    2300044: outerparts2_piece2 part_03
+    2300046: outerparts2_piece2 part_04
+    2300048: outerparts3_piece2 part_01
+    2300050: outerparts3_piece2 part_02
+    2300052: outerparts3_piece2 part_03
+    2300054: outerparts3_piece2 part_04
+    2300056: outerparts4_piece2 part_01
+    2300058: outerparts4_piece2 part_02
+    2300060: outerparts4_piece2 part_03
+    2300062: outerparts4_piece2 part_04
+    2300064: outerparts5_piece2 part_01
+    2300066: outerparts5_piece2 part_02
+    2300068: outerparts5_piece2 part_03
+    2300070: outerparts5_piece2 part_04
+    2300072: outerparts6_piece2 part_01
+    2300074: outerparts6_piece2 part_02
+    2300076: outerparts6_piece2 part_03
+    2300078: outerparts6_piece2 part_04
+    3300000: box1_piece2 part_01
+    3300002: box1_piece2 part_02
+    3300004: box1_piece2 part_03
+    3300006: box1_piece2 part_04
+    3300008: frame1_inner1_piece2 part_01
+    3300010: frame1_inner1_piece2 part_02
+    3300012: frame1_inner1_piece2 part_03
+    3300014: frame1_inner1_piece2 part_04
+    3300016: frame2_outer1_HIDE_piece2 part_01
+    3300018: frame2_outer1_HIDE_piece2 part_02
+    3300020: frame2_outer1_HIDE_piece2 part_03
+    3300022: frame2_outer1_HIDE_piece2 part_04
+    3300024: inner1_piece2 part_01
+    3300026: inner1_piece2 part_02
+    3300028: inner1_piece2 part_03
+    3300030: inner1_piece2 part_04
+    3300032: outerparts1_piece2 part_01
+    3300034: outerparts1_piece2 part_02
+    3300036: outerparts1_piece2 part_03
+    3300038: outerparts1_piece2 part_04
+    3300040: outerparts2_piece2 part_01
+    3300042: outerparts2_piece2 part_02
+    3300044: outerparts2_piece2 part_03
+    3300046: outerparts2_piece2 part_04
+    3300048: outerparts3_piece2 part_01
+    3300050: outerparts3_piece2 part_02
+    3300052: outerparts3_piece2 part_03
+    3300054: outerparts3_piece2 part_04
+    3300056: outerparts4_piece2 part_01
+    3300058: outerparts4_piece2 part_02
+    3300060: outerparts4_piece2 part_03
+    3300062: outerparts4_piece2 part_04
+    3300064: outerparts5_piece2 part_01
+    3300066: outerparts5_piece2 part_02
+    3300068: outerparts5_piece2 part_03
+    3300070: outerparts5_piece2 part_04
+    3300072: outerparts6_piece2 part_01
+    3300074: outerparts6_piece2 part_02
+    3300076: outerparts6_piece2 part_03
+    3300078: outerparts6_piece2 part_04
+    4300000: box1_piece2 part_01
+    4300002: box1_piece2 part_02
+    4300004: box1_piece2 part_03
+    4300006: box1_piece2 part_04
+    4300008: frame1_inner1_piece2 part_01
+    4300010: frame1_inner1_piece2 part_02
+    4300012: frame1_inner1_piece2 part_03
+    4300014: frame1_inner1_piece2 part_04
+    4300016: frame2_outer1_HIDE_piece2 part_01
+    4300018: frame2_outer1_HIDE_piece2 part_02
+    4300020: frame2_outer1_HIDE_piece2 part_03
+    4300022: frame2_outer1_HIDE_piece2 part_04
+    4300024: inner1_piece2 part_01
+    4300026: inner1_piece2 part_02
+    4300028: inner1_piece2 part_03
+    4300030: inner1_piece2 part_04
+    4300032: outerparts1_piece2 part_01
+    4300034: outerparts1_piece2 part_02
+    4300036: outerparts1_piece2 part_03
+    4300038: outerparts1_piece2 part_04
+    4300040: outerparts2_piece2 part_01
+    4300042: outerparts2_piece2 part_02
+    4300044: outerparts2_piece2 part_03
+    4300046: outerparts2_piece2 part_04
+    4300048: outerparts3_piece2 part_01
+    4300050: outerparts3_piece2 part_02
+    4300052: outerparts3_piece2 part_03
+    4300054: outerparts3_piece2 part_04
+    4300056: outerparts4_piece2 part_01
+    4300058: outerparts4_piece2 part_02
+    4300060: outerparts4_piece2 part_03
+    4300062: outerparts4_piece2 part_04
+    4300064: outerparts5_piece2 part_01
+    4300066: outerparts5_piece2 part_02
+    4300068: outerparts5_piece2 part_03
+    4300070: outerparts5_piece2 part_04
+    4300072: outerparts6_piece2 part_01
+    4300074: outerparts6_piece2 part_02
+    4300076: outerparts6_piece2 part_03
+    4300078: outerparts6_piece2 part_04
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
