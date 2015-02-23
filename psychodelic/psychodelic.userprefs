@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Psychodelic/Scripts/Jetpack.cs">
+    <Files>
+      <File FileName="Assets/Psychodelic/Scripts/Jetpack.cs" Line="197" Column="22" />
+      <File FileName="Assets/Psychodelic/Scripts/FPScontroller.cs" Line="6" Column="2" />
+      <File FileName="Assets/Psychodelic/Scripts/CharacterMotor.cs" Line="6" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
