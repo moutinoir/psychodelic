@@ -194,7 +194,8 @@ public class OVRGamepadController : MonoBehaviour
 	/// <param name="axis">Axis.</param>
 	public static float DefaultReadAxis(Axis axis)
 	{
-#if UNITY_ANDROID && !UNITY_EDITOR
+//#if (UNITY_ANDROID && !UNITY_EDITOR) || UNITY_EDITOR_OSX
+#if (UNITY_ANDROID && !UNITY_EDITOR)
 		return Input.GetAxis(AxisNames[(int)axis]);
 #else
 		return OVR_GamepadController_GetAxis((int)axis);
@@ -221,8 +222,16 @@ public class OVRGamepadController : MonoBehaviour
 	/// </summary>
 	public static bool DefaultReadButton(Button button)
 	{
-#if UNITY_ANDROID && !UNITY_EDITOR
+//#if (UNITY_ANDROID && !UNITY_EDITOR) || UNITY_EDITOR_OSX
+#if (UNITY_ANDROID && !UNITY_EDITOR)
 		return Input.GetButton(ButtonNames[(int)button]);
+#elif  UNITY_EDITOR_OSX
+		if(ButtonNames[(int)button] == "LeftShoulder" || ButtonNames[(int)button] == "RightShoulder"
+		   || ButtonNames[(int)button] == "Up" || ButtonNames[(int)button] == "Down")
+		{
+			return Input.GetButton(ButtonNames[(int)button]);
+		}
+		return OVR_GamepadController_GetButton((int)button);
 #else
 		return OVR_GamepadController_GetButton((int)button);
 #endif
@@ -248,7 +257,8 @@ public class OVRGamepadController : MonoBehaviour
 	/// </summary>
 	public static bool GPC_IsAvailable()
 	{
-#if !UNITY_ANDROID || UNITY_EDITOR
+//#if (!UNITY_ANDROID || UNITY_EDITOR) || UNITY_EDITOR_OSX
+#if (UNITY_ANDROID && !UNITY_EDITOR)
 		return GPC_Available;
 #else
 		return true;
@@ -283,6 +293,7 @@ public class OVRGamepadController : MonoBehaviour
     void Update()
     {
 		GPC_Available = GPC_Update();
+		GPC_Test ();
     }
 
 	void OnDestroy()

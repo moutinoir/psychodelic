@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{95BE2467-2815-F09F-5032-9DCA245150E7}") = "psychodelic", "Assembly-CSharp-firstpass.csproj", "{E29AA7AF-B533-3F70-050E-DF97717087F9}"
+EndProject
 Project("{95BE2467-2815-F09F-5032-9DCA245150E7}") = "psychodelic", "Assembly-CSharp.csproj", "{896D5B1A-5A73-D12F-4621-A69CD6F13212}"
 EndProject
 Project("{95BE2467-2815-F09F-5032-9DCA245150E7}") = "psychodelic", "Assembly-CSharp-Editor.csproj", "{36EBD3E6-F864-B468-300B-595FA253BA25}"
@@ -13,6 +15,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E29AA7AF-B533-3F70-050E-DF97717087F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E29AA7AF-B533-3F70-050E-DF97717087F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E29AA7AF-B533-3F70-050E-DF97717087F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E29AA7AF-B533-3F70-050E-DF97717087F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{896D5B1A-5A73-D12F-4621-A69CD6F13212}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{896D5B1A-5A73-D12F-4621-A69CD6F13212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{896D5B1A-5A73-D12F-4621-A69CD6F13212}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,7 +35,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-															GlobalSection(MonoDevelopProperties) = preSolution
+																									GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

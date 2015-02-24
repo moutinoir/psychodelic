@@ -58,6 +58,7 @@
      <None Include="Assets\Tuscany\Particles\Shaders\Particle Alpha Blend_IgnoreFog.shader" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 5.shader" />
      <None Include="Assets\Psychodelic\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\InControl\README\README.txt" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 6.shader" />
      <None Include="Assets\Tuscany\Models\Materials\DoubleSided.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -86,6 +87,8 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E29AA7AF-B533-3F70-050E-DF97717087F9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{896D5B1A-5A73-D12F-4621-A69CD6F13212}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript.unityproj">

@@ -176,7 +176,7 @@ public class OVRPlayerController : MonoBehaviour
 		Vector3 predictedXZ = Vector3.Scale((Controller.transform.localPosition + moveDirection), new Vector3(1, 0, 1));
 
 		// Move contoller
-		Controller.Move(moveDirection);
+		//Controller.Move(moveDirection);
 
 		Vector3 actualXZ = Vector3.Scale(Controller.transform.localPosition, new Vector3(1, 0, 1));
 
@@ -315,7 +315,7 @@ public class OVRPlayerController : MonoBehaviour
 	/// </summary>
 	public void Stop()
 	{
-		Controller.Move(Vector3.zero);
+		//Controller.Move(Vector3.zero);
 		MoveThrottle = Vector3.zero;
 		FallSpeed = 0.0f;
 	}

@@ -1,10 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Psychodelic/Scripts/Jetpack.cs">
     <Files>
-      <File FileName="Assets/Psychodelic/Scripts/Jetpack.cs" Line="197" Column="22" />
-      <File FileName="Assets/Psychodelic/Scripts/FPScontroller.cs" Line="6" Column="2" />
-      <File FileName="Assets/Psychodelic/Scripts/CharacterMotor.cs" Line="6" Column="27" />
+      <File FileName="Assets/Psychodelic/Scripts/Tests/XBoxController.cs" Line="20" Column="4" />
+      <File FileName="Assets/Psychodelic/Scripts/Jetpack.cs" Line="181" Column="4" />
+      <File FileName="Assets/Psychodelic/Scripts/FPScontroller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Psychodelic/Scripts/CharacterMotor.cs" Line="1" Column="1" />
+      <File FileName="Assets/Psychodelic/Scripts/Movement.cs" Line="1" Column="1" />
+      <File FileName="Assets/OVR/Scripts/Util/OVRUGUI.cs" Line="1" Column="1" />
+      <File FileName="Assets/OVR/Scripts/Util/OVRGamepadController.cs" Line="1" Column="1" />
+      <File FileName="Assets/OVR/Scripts/Util/OVRPlayerController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/InControl/README/README.txt" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/InControl/Editor/InputManagerAssetGenerator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/InControl/Editor/InControlBuilder.cs" Line="1" Column="1" />
+      <File FileName="Assets/Plugins/InControl/Editor/InControlManagerEditor.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -62,10 +62,12 @@
      <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
      <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
-     <Compile Include="Assets\Psychodelic\Scripts\CharacterMotor.cs" />
-     <Compile Include="Assets\Psychodelic\Scripts\FPScontroller.cs" />
-     <Compile Include="Assets\Psychodelic\Scripts\Jetpack.cs" />
-     <Compile Include="Assets\Psychodelic\Scripts\Movement.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\Jetpack\PGJetpack.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\NumberFiveJetpack\CharacterMotor.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\NumberFiveJetpack\FPScontroller.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\NumberFiveJetpack\Jetpack.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\NumberFiveJetpack\Movement.cs" />
+     <Compile Include="Assets\Psychodelic\Scripts\Tests\XBoxController.cs" />
      <Compile Include="Assets\Psychodelic\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Tuscany\Scripts\BirdsBehavior.cs" />
      <Compile Include="Assets\Tuscany\Scripts\BoatBehavior.cs" />
@@ -82,6 +84,7 @@
      <None Include="Assets\Tuscany\Particles\Shaders\Particle Alpha Blend_IgnoreFog.shader" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 5.shader" />
      <None Include="Assets\Psychodelic\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Plugins\InControl\README\README.txt" />
      <None Include="Assets\Tuscany\Models\Materials\Vertex color unlit 6.shader" />
      <None Include="Assets\Tuscany\Models\Materials\DoubleSided.shader" />
      <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
@@ -102,6 +105,10 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity4_6_2/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{E29AA7AF-B533-3F70-050E-DF97717087F9}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
